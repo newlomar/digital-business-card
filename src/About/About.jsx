@@ -15,7 +15,8 @@ export default function About() {
         <h4 className='h4'>Interests</h4>
         <p className='p'>
           League Of Legends, casual programming stuff, solving problems, helping
-          people, spend time with family and friends.
+          people, spend time with family (specially with my girlfriend) and
+          friends.
         </p>
       </section>
     </div>
