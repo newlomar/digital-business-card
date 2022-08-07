@@ -152,7 +152,7 @@ input[type='checkbox'] {
   visibility: hidden;
 }
 
-label {
+.switchTheme {
   cursor: pointer;
   text-indent: -9999px;
   width: 100px;
@@ -161,6 +161,10 @@ label {
   display: block;
   border-radius: 50px;
   position: relative;
+}
+
+.design {
+  background: #bada55;
 }
 
 label:after {
@@ -177,6 +181,10 @@ label:after {
 
 input:checked + label {
   background: #00003f;
+}
+
+input:checked + .design {
+  background: #bada55;
 }
 
 input:checked + label:after {
