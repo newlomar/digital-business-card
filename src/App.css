@@ -166,6 +166,10 @@
   color: red;
 }
 
+.typeCardImgs {
+  width: 30px;
+}
+
 /* Switch Styles */
 
 input[type='checkbox'] {

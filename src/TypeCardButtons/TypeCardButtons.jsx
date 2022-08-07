@@ -1,3 +1,5 @@
+import sol from '../assets/sol.png';
+
 export default function TypeCardButtons() {
   return (
     <section className='typeCardButtonsSection'>
@@ -6,7 +8,7 @@ export default function TypeCardButtons() {
         decisions!
       </h2>
       <div>
-        <img src='' alt='' />
+        <img className='typeCardImgs' src={sol} alt='' />
         <input type='checkbox' id='switchThemeColor' />
         <label htmlFor='switchThemeColor' className='switchTheme'>
           Toggle
