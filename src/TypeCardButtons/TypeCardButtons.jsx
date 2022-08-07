@@ -6,16 +6,20 @@ export default function TypeCardButtons() {
         decisions!
       </h2>
       <div>
+        <img src='' alt='' />
         <input type='checkbox' id='switchThemeColor' />
         <label htmlFor='switchThemeColor' className='switchTheme'>
           Toggle
         </label>
+        <img src='' alt='' />
       </div>
       <div>
+        <img src='' alt='' />
         <input type='checkbox' id='switchDesign' />
         <label htmlFor='switchDesign' className='switchTheme design'>
           Toggle
         </label>
+        <img src='' alt='' />
       </div>
     </section>
   );
