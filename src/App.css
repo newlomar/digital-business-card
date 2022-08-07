@@ -176,7 +176,7 @@ label:after {
 }
 
 input:checked + label {
-  background: #bada55;
+  background: #00003f;
 }
 
 input:checked + label:after {
