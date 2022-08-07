@@ -1,8 +1,8 @@
 export default function TypeCardButtons() {
   return (
     <section className='typeCardButtonsSection'>
-      <h2>
-        Make it <span className='reactNameEmphasize'>React</span> your
+      <h2 className='buttonsHeading'>
+        Make it <span className='reactNameEmphasize'>React</span> to your
         decisions!
       </h2>
       <div>

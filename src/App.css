@@ -1,6 +1,7 @@
 .app {
   display: flex;
   justify-content: center;
+  gap: 40px;
 }
 
 .card {
@@ -142,6 +143,23 @@
   padding: 15px 0;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+}
+
+.typeCardButtonsSection {
+  text-align: center;
+  background: #dcdcdc;
+  max-width: 380px;
+  max-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.buttonsHeading {
+  font-size: 18px;
 }
 
 .reactNameEmphasize {
