@@ -144,6 +144,10 @@
   border-bottom-right-radius: 10px;
 }
 
+.reactNameEmphasize {
+  color: red;
+}
+
 /* Switch Styles */
 
 input[type='checkbox'] {

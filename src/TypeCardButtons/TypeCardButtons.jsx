@@ -1,6 +1,10 @@
 export default function TypeCardButtons() {
   return (
-    <section>
+    <section className='typeCardButtonsSection'>
+      <h2>
+        Make it <span className='reactNameEmphasize'>React</span> your
+        decisions!
+      </h2>
       <div>
         <input type='checkbox' id='switchThemeColor' />
         <label htmlFor='switchThemeColor' className='switchTheme'>
