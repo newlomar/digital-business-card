@@ -2,12 +2,12 @@ import Hero from '../Hero/Hero';
 import About from '../About/About';
 import Social from '../Social/Social';
 
-export default function Card() {
+export default function Card({ design }) {
   return (
     <div className='card'>
-      <Hero />
+      <Hero design={design} />
       <About />
-      <Social />
+      <Social design={design} />
     </div>
   );
 }

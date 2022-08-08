@@ -5,16 +5,22 @@ import { useState } from 'react';
 
 function App() {
   const [theme, setTheme] = useState('dark');
+  const [design, setDesign] = useState('one');
 
   const switchTheme = () => {
     const newTheme = theme === 'dark' ? 'light' : 'dark';
     setTheme(newTheme);
   };
 
+  const switchDesign = () => {
+    const newDesign = design === 'one' ? 'two' : 'one';
+    setDesign(newDesign);
+  };
+
   return (
     <div className='app' data-theme={theme}>
-      <Card />
-      <TypeCardButtons switchTheme={switchTheme} />
+      <Card design={design} />
+      <TypeCardButtons switchTheme={switchTheme} switchDesign={switchDesign} />
     </div>
   );
 }

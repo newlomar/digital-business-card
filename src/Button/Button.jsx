@@ -17,7 +17,7 @@ export default function Button({ type }) {
       href='https://www.linkedin.com/in/newtonlomar/'
       target='_blank'
     >
-      <img className='linkedinLogo' src={linkedinLogo} alt='email logo' />
+      <img className='linkedinLogo' src={linkedinLogo} alt='linkedin logo' />
       <h5 className='h5'>LinkedIn</h5>
     </a>
   );

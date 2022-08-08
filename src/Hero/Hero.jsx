@@ -1,6 +1,6 @@
 import profile from '../assets/profile.jpg';
 import Button from '../Button/Button';
-export default function Hero() {
+export default function Hero({ design }) {
   return (
     <div>
       <img
@@ -17,9 +17,17 @@ export default function Hero() {
           </a>
         </h3>
       </div>
-      <div className='hero__buttons'>
-        <Button type='email' />
-        <Button type='linkedin' />
+      <div className=''>
+        {design === 'one' ? (
+          <div className='hero__buttons'>
+            <Button type='email' />
+            <Button type='linkedin' />
+          </div>
+        ) : (
+          <div className='hero__buttons'>
+            <Button type='email' />
+          </div>
+        )}
       </div>
     </div>
   );
