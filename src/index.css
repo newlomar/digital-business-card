@@ -12,3 +12,10 @@ body {
 body {
   background: #23252c;
 }
+
+:root {
+  --background: #1a1b21;
+  --text-primary: #fff;
+  --text-secondary: #f5f5f5;
+  --text-tertiary: #dcdcdc;
+}
