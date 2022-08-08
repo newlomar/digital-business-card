@@ -148,7 +148,7 @@
 .typeCardButtonsSection {
   text-align: center;
   background: #dcdcdc;
-  max-width: 380px;
+  max-width: 320px;
   max-height: 300px;
   display: flex;
   flex-direction: column;
@@ -228,4 +228,18 @@ input:checked + label:after {
 
 label:active:after {
   width: 65px;
+}
+
+/* Media Querys */
+
+@media (max-width: 700px) {
+  .app {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .typeCardButtonsSection {
+    margin-top: 0;
+    order: -1;
+  }
 }
