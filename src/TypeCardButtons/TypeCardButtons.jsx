@@ -7,8 +7,8 @@ export default function TypeCardButtons({ switchTheme }) {
   return (
     <section className='typeCardButtonsSection'>
       <h2 className='buttonsHeading'>
-        Make it <span className='reactNameEmphasize'>React</span> to your
-        decisions!
+        Make the card below <span className='reactNameEmphasize'>React</span> to
+        your decisions!
       </h2>
       <div className='switchDivison'>
         <img className='typeCardImgs' src={sol} alt='sol' />
