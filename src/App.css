@@ -9,6 +9,7 @@
   background: var(--background);
   border-radius: 10px;
   margin: 10px 0;
+  transition: all 0.5s;
 }
 
 .profile_pic {
@@ -143,6 +144,7 @@
   padding: 15px 0;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  transition: all 0.5s;
 }
 
 .typeCardButtonsSection {

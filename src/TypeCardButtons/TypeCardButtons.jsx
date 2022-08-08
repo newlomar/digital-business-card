@@ -3,7 +3,7 @@ import lua from '../assets/lua.png';
 import website from '../assets/website.png';
 import webpage from '../assets/webpage.png';
 
-export default function TypeCardButtons() {
+export default function TypeCardButtons({ switchTheme }) {
   return (
     <section className='typeCardButtonsSection'>
       <h2 className='buttonsHeading'>
@@ -13,7 +13,11 @@ export default function TypeCardButtons() {
       <div className='switchDivison'>
         <img className='typeCardImgs' src={sol} alt='sol' />
         <input type='checkbox' id='switchThemeColor' />
-        <label htmlFor='switchThemeColor' className='switchTheme'>
+        <label
+          htmlFor='switchThemeColor'
+          className='switchTheme'
+          onClick={switchTheme}
+        >
           Toggle
         </label>
         <img className='typeCardImgs' src={lua} alt='lua' />
