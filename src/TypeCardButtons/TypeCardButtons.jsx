@@ -11,7 +11,7 @@ export default function TypeCardButtons({ switchTheme }) {
         decisions!
       </h2>
       <div className='switchDivison'>
-        <img className='typeCardImgs' src={sol} alt='sol' />
+        <img className='typeCardImgs' src={lua} alt='lua' />
         <input type='checkbox' id='switchThemeColor' />
         <label
           htmlFor='switchThemeColor'
@@ -19,8 +19,8 @@ export default function TypeCardButtons({ switchTheme }) {
           onClick={switchTheme}
         >
           Toggle
-        </label>
-        <img className='typeCardImgs' src={lua} alt='lua' />
+        </label>{' '}
+        <img className='typeCardImgs' src={sol} alt='sol' />
       </div>
       <div className='switchDivison'>
         <img className='typeCardImgs' src={website} alt='website' />
