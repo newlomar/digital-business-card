@@ -46,10 +46,12 @@
 
 .h3 a {
   color: var(--text-secondary);
+  transition: all 0.5s;
 }
 
 .h3 a:visited {
   color: var(--text-secondary);
+  transition: all 0.5s;
 }
 
 .hero__buttons {
