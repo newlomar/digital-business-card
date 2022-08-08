@@ -199,7 +199,7 @@ input[type='checkbox'] {
   text-indent: -9999px;
   width: 100px;
   height: 54px;
-  background: #f9d71c;
+  background: #00003f;
   display: block;
   border-radius: 50px;
   position: relative;
@@ -222,7 +222,7 @@ label:after {
 }
 
 input:checked + label {
-  background: #00003f;
+  background: #f9d71c;
 }
 
 input:checked + .design {
