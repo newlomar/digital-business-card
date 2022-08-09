@@ -4,11 +4,12 @@ export default function About() {
       <section className='about about__about'>
         <h4 className='h4'>About</h4>
         <p className='p'>
-          I am a Full Cycle Developer with a particular interest in making
-          things simple and automating daily tasks. I try to keep up with
-          security and best practices, and I am always looking for new things to
-          learn. I chose JavaScript as main programming language and I try to
-          solve problems using it, but I'm definitely technology agnostic.
+          I am a Full Stack Developer with DevOps knowledge and a particular
+          interest in making things simple and automating daily tasks. I try to
+          keep up with security and best practices, and I am always looking for
+          new things to learn. I chose JavaScript as main programming language
+          and I try to solve problems using it, but I'm definitely technology
+          agnostic.
         </p>
       </section>
       <section className='about about__interests'>
