@@ -35,6 +35,7 @@
   color: #f3bf99;
   font-size: 13px;
   margin: 0;
+  transition: all 0.5s;
 }
 
 .h2__light {
