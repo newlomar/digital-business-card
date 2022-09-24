@@ -37,6 +37,10 @@
   margin: 0;
 }
 
+.h2__light {
+  color: var(--text-primary);
+}
+
 .h3 {
   color: var(--text-secondary);
   font-size: 10px;

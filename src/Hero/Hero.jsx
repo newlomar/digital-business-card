@@ -1,6 +1,6 @@
 import profile from '../assets/profile.jpg';
 import Button from '../Button/Button';
-export default function Hero({ design }) {
+export default function Hero({ design, theme }) {
   return (
     <div>
       <img
@@ -10,7 +10,7 @@ export default function Hero({ design }) {
       />
       <div className='hero__text'>
         <h1 className='h1'>Newton Lomar</h1>
-        <h2 className='h2'>Frontend Developer</h2>
+        <h2 className={theme === 'dark' ? 'h2' : 'h2 h2__light'}>Developer</h2>
         <h3 className='h3'>
           <a href='https://www.newtonlomar.com' target='_blank'>
             newtonlomar.com

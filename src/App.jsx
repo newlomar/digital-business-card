@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className='app' data-theme={theme}>
-      <Card design={design} />
+      <Card design={design} theme={theme} />
       <TypeCardButtons switchTheme={switchTheme} switchDesign={switchDesign} />
     </div>
   );
